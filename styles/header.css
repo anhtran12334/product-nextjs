@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.nav .cate:hover .categorys{
+    display: block;
+}
+.nav .cate{
+    position: relative;
+}
+.nav .cate .categorys{
+    position: absolute;
+    left: -70px;
+    display: none;
+}
+.nav .cate .categorys .category{
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}

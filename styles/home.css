@@ -1,0 +1,93 @@
+.list-brands{
+    background-color: #d9d9d9;
+    height:443px;
+
+    
+}
+.list-brands h6{
+    font-size: 24px;
+    font-family: lexend;
+    /* line-height: 32px; */
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    margin: 0;
+    text-align: center;
+}
+.list-brands .brands{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.list-brands .brands .brand{
+    background-color: black;
+    height: 150px;
+    width: 159px;
+}
+.list-brands .see-more{
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-left: 649px;
+    /* line-height: 200px; */
+    padding-top: 18px;
+    margin-top: 60px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.category-segment h6{
+    text-align: center;
+    font-size: 24px;
+    margin : 40px;
+}
+.category-segment .list-category{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.category-segment .list-category .category{
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    /* margin-left: 649px; */
+    /* line-height: 200px; */
+    padding-top: 18px;
+    /* margin-top: 60px; */
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.list-products{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.list-products .product .thumbnail-product{
+    width: 270px;
+    height: 270px;
+    background-color: black;
+
+}
+.list-products .product .infor-product{
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.list-products .product .infor-product .name{
+    font-size: 15px;
+}
+.list-products .product .infor-product .brand{
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.list-products .product .infor-product .price{
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.list-products .product .infor-product .detail{
+    font-size: 12px;
+    margin-top: 10px;
+}
